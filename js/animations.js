@@ -23,7 +23,6 @@ function initIncreaseNumberAnimation() {
 }
 
 
-
 document.querySelector('#budget').addEventListener('change', function handleSelectChange(event) {
   if (event.target.value === 'other') {
     const formContainer = document.createElement('div');
